@@ -26,28 +26,49 @@ Ten different datasets were used to evaluate the performance of the algorithms a
 | [Slow Full Rotation](#slow-full-rotation-sampledatarun7)     |        117.8 &plusmn; 3.3 |            5.2 &plusmn; 2.1 |
 | [Faster Full Rotation](#faster-full-rotation-sampledatarun10)   |       133.5 &plusmn; 32.6 |            1.1 &plusmn; 0.6 |
 
-> The following figures show the performance of the classification algorithm for the sample input videos. To view the performance of the tracking algorithm, please click on each figure.
+### Classification
+The used statistical measures of the performance of the classification algorithm are described in the following figure.
 
-### No Rotation (SampleDataRun2)
+[![No Rotation](assets/results/confusion-matrix.png "Confusion Matrix")](assets/results/confusion-matrix.pdf)
+
+The following figures show the performance of the classification algorithm for the sample input videos. 
+> To view the performance/output of the tracking algorithm, please click on each figure.
+#### No Rotation (SampleDataRun2)
 [![No Rotation](assets/results/SampleDataRun2-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "No Rotation")](https://youtu.be/Dc5PuvFrSg0)
-### Single Z Axis Rotation (SampleDataRun4)
+#### Single Z Axis Rotation (SampleDataRun4)
 [![Single Z Axis Rotation](assets/results/SampleDataRun4-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Single Z Axis Rotation")](https://youtu.be/MINUTONbF7E)
-### Slow Z Axis Rotation (SampleDataRun9)
+#### Slow Z Axis Rotation (SampleDataRun9)
 [![Slow Z Axis Rotation](assets/results/SampleDataRun9-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Slow Z Axis Rotation")](https://youtu.be/fxTmYhwb43Y)
-### Faster Z Axis Rotation (SampleDataRun5)
+#### Faster Z Axis Rotation (SampleDataRun5)
 [![Faster Z Axis Rotation](assets/results/SampleDataRun5-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Faster Z Axis Rotation")](https://youtu.be/aKHtzXaMWAY)
-### Single X Axis Rotation (SampleDataRun3)
+#### Single X Axis Rotation (SampleDataRun3)
 [![Single X Axis Rotation](assets/results/SampleDataRun3-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Single X Axis Rotation")](https://youtu.be/v9ue5KQiNmA)
-### Slow X Axis Rotation (SampleDataRun8)
+#### Slow X Axis Rotation (SampleDataRun8)
 [![Slow X Axis Rotation](assets/results/SampleDataRun8-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Slow X Axis Rotation")](https://youtu.be/tgQajvqF-38)
-### Faster X Axis Rotation (SampleDataRun6)
+#### Faster X Axis Rotation (SampleDataRun6)
 [![Faster X Axis Rotation](assets/results/SampleDataRun6-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Faster X Axis Rotation")](https://youtu.be/THvWsD3J4SI)
-### Full Rotation (SampleDataRun1)
+#### Full Rotation (SampleDataRun1)
 [![Full Rotation](assets/results/SampleDataRun1-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Full Rotation")](https://youtu.be/VFNVB4zX9Qk)
-### Slow Full Rotation (SampleDataRun7)
+#### Slow Full Rotation (SampleDataRun7)
 [![Slow Full Rotation](assets/results/SampleDataRun7-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Slow Full Rotation")](https://youtu.be/Pe9l5cb6sLg)
-### Faster Full Rotation (SampleDataRun10)
+#### Faster Full Rotation (SampleDataRun10)
 [![Faster Full Rotation](assets/results/SampleDataRun10-d-1-c-1000-tm-1-ta-1-rc-1-ra-0/classification-confusion-matrix-ul-1.png "Faster Full Rotation")](https://youtu.be/sP8S-DTxj2E)
+
+### Tracking
+The *accuracy* (the number of correctly tracked objects with respect to the total number of correctly tidentified objects per frame) of the tracking algorithm is shown in the following table. In addition, the output results of the tracking algorithm is available at [here](https://www.youtube.com/watch?v=VFNVB4zX9Qk&list=PLR0Ezs-OTZC41fKdtn9gpoWx8A2s4e0HG). Except for the *Faster Z Axis Rotation* and *Faster X Axis Rotation* samples (these are not realistic situations due to the very high speed of spacecraft), in other cases, the classification and tracking algorithms work well.
+
+| Sample data            | Accuracy%  (mean &plusmn; std) |
+|------------------------|:---------------------------:|
+| No Rotation            |                 100 &plusmn; 0 |
+| Single Z Axis Rotation |                 100 &plusmn; 0 |
+| Slow Z Axis Rotation   |                 100 &plusmn; 0 |
+| Faster Z Axis Rotation |                 100 &plusmn; 0 |
+| Single X Axis Rotation |                 100 &plusmn; 0 |
+| Slow X Axis Rotation   |                 100 &plusmn; 0 |
+| Faster X Axis Rotation |                 93 &plusmn; 24 |
+| Full Rotation          |                 100 &plusmn; 0 |
+| Slow Full Rotation     |                 100 &plusmn; 0 |
+| Faster Full Rotation   |                 68 &plusmn; 46 |
 
 ## References
 Zamani, Yasin, et al. "A Robust Vision-based Algorithm for Detecting and Classifying Small Orbital Debris Using On-board Optical Cameras." (2019). [View Article](https://ntrs.nasa.gov/search.jsp?R=20190032383)
