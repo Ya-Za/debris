@@ -31,13 +31,13 @@ The used statistical measures of the performance of the classification algorithm
 
 [![No Rotation](assets/results/confusion-matrix.png "Confusion Matrix")](assets/results/confusion-matrix.pdf)
 
-The following figure show the performance of the classification algorithm for the sample input videos. In addition, the output results of the tracking algorithm is available at [here](https://www.youtube.com/playlist?list=PLR0Ezs-OTZC6FXPM-u1bl0TuAcPwsHaSU).
+The following figure show the performance of the classification algorithm for the sample input videos. In addition, the output results of the tracking algorithm is available at [here](https://www.youtube.com/watch?v=fYTiekzCdBI&list=PLR0Ezs-OTZC6FXPM-u1bl0TuAcPwsHaSU).
 #### No Rotation (SampleDataRun2)
 [![No Rotation](assets/results/classification-confusion-matrix-ul-1.png "No Rotation")](assets/results/classification-confusion-matrix-ul-1.pdf)
 
 
 ### Tracking
-The *accuracy* (the number of correctly tracked objects with respect to the total number of correctly tidentified objects per frame) of the tracking algorithm is shown in the following table. In addition, the output results of the classification algorithm is available at [here](https://www.youtube.com/watch?v=fYTiekzCdBI&list=PLR0Ezs-OTZC6FXPM-u1bl0TuAcPwsHaSU) (to see the output of the tracking algorithm for each sample data click on its title). Except for the *Faster Z Axis Rotation* and *Faster X Axis Rotation* samples (these are not realistic situations due to the very high speed of spacecraft), in other cases, the classification and tracking algorithms work well.
+The *accuracy* (the number of correctly tracked objects with respect to the total number of correctly tidentified objects per frame) of the tracking algorithm is shown in the following table. In addition, the output results of the classification algorithm is available at [here](https://www.youtube.com/watch?v=Dc5PuvFrSg0&list=PLR0Ezs-OTZC41fKdtn9gpoWx8A2s4e0HG) (to see the output of the tracking algorithm for each sample data click on its title). Except for the *Faster Z Axis Rotation* and *Faster X Axis Rotation* samples (these are not realistic situations due to the very high speed of spacecraft), in other cases, the classification and tracking algorithms work well.
 
 | Sample data            | Accuracy%  (mean &plusmn; std) |
 |------------------------|:---------------------------:|
