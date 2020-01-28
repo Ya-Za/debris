@@ -11,7 +11,7 @@ The tracking algorithm tracks the spots which are classified as objects in the p
 [![Tracking](assets/algorithms/tracking.png "Tracking")](assets/algorithms/tracking.pdf)
 
 ## Resutls
-Ten different datasets were used to evaluate the performance of the algorithms are described in the following table. For all the sample videos *Frame size* is 1080 (pixel) Height &times; 1920 (pixel) Width, *Frame rate* 60 frames per second (fps), *Duration* 60 seconds, *Color format* is Grayscale, and the *Source data type* is Floating-point number between 0 and 1. The title of each sample data (*to see each sample video data click on its title*) shows the status of the spacecraft when capturing video frames.
+Ten different datasets were used to evaluate the performance of the algorithms are described in the following table. For all the sample videos *Frame size* is 1080 (pixel) Height &times; 1920 (pixel) Width, *Frame rate* 60 frames per second (fps), *Duration* 60 seconds, *Color format* is Grayscale, and the *Source data type* is Floating-point number between 0 and 1. The title of each sample data (*to see each sample video data click on its title and to see all of them click [here](https://www.youtube.com/watch?v=5a3guBK2rlw&list=PLR0Ezs-OTZC6UFqrmYYmIAwX0QrCTFbHu)*) shows the status of the spacecraft when capturing video frames.
 
 | Sample data            | Spots (mean &plusmn; std) | Objects (mean &plusmn; std) |
 |------------------------|--------------------------:|----------------------------:|
@@ -37,7 +37,7 @@ The following figure show the performance of the classification algorithm for th
 
 
 ### Tracking
-The *accuracy* (the number of correctly tracked objects with respect to the total number of correctly tidentified objects per frame) of the tracking algorithm is shown in the following table. In addition, the output results of the tracking algorithm is available at [here](https://www.youtube.com/watch?v=VFNVB4zX9Qk&list=PLR0Ezs-OTZC41fKdtn9gpoWx8A2s4e0HG) (to see the output of the tracking algorithm for each sample data click on its title). Except for the *Faster Z Axis Rotation* and *Faster X Axis Rotation* samples (these are not realistic situations due to the very high speed of spacecraft), in other cases, the classification and tracking algorithms work well.
+The *accuracy* (the number of correctly tracked objects with respect to the total number of correctly tidentified objects per frame) of the tracking algorithm is shown in the following table. In addition, the output results of the classification algorithm is available at [here](https://www.youtube.com/watch?v=fYTiekzCdBI&list=PLR0Ezs-OTZC6FXPM-u1bl0TuAcPwsHaSU) (to see the output of the tracking algorithm for each sample data click on its title). Except for the *Faster Z Axis Rotation* and *Faster X Axis Rotation* samples (these are not realistic situations due to the very high speed of spacecraft), in other cases, the classification and tracking algorithms work well.
 
 | Sample data            | Accuracy%  (mean &plusmn; std) |
 |------------------------|:---------------------------:|
